@@ -42,7 +42,7 @@ export default function QuestionPaper({ assignmentId }: QuestionPaperProps) {
   }, [assignmentId]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/assignments/${assignmentId}`)
+    fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/assignments/${assignmentId}`)
       .then(res => res.json())
       .then(data => {
         setAssignment(assignmentId, data);

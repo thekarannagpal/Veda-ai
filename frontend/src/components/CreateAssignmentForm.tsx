@@ -51,7 +51,7 @@ export default function CreateAssignmentForm() {
         if (file) formData.append('file', file);
 
         try {
-            const res = await fetch('http://localhost:5000/api/assignments', {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000'}/api/assignments`, {
                 method: 'POST',
                 body: formData,
             });
