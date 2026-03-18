@@ -1,0 +1,24 @@
+src/queue/generateQueue.ts(8,3): error TS2322: Type 'Redis' is not assignable to type 'ConnectionOptions'.
+  Type 'Redis' is not assignable to type 'ClusterOptions | Redis | Cluster'.
+    Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/Redis").default' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/Redis").default'.
+      Types of property 'options' are incompatible.
+        Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/redis/RedisOptions").RedisOptions' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/redis/RedisOptions").RedisOptions'.
+          Type 'RedisOptions' is not assignable to type 'CommonRedisOptions'.
+            Types of property 'Connector' are incompatible.
+              Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/connectors/ConnectorConstructor").default | undefined' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/connectors/ConnectorConstructor").default | undefined'.
+                Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/connectors/ConnectorConstructor").default' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/connectors/ConnectorConstructor").default'.
+                  Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/connectors/AbstractConnector").default' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/connectors/AbstractConnector").default'.
+                    Property 'connecting' is protected but type 'AbstractConnector' is not a class derived from 'AbstractConnector'.
+src/queue/generateQueue.ts(49,6): error TS2322: Type 'Redis' is not assignable to type 'ConnectionOptions'.
+  Type 'Redis' is not assignable to type 'ClusterOptions | Redis | Cluster'.
+    Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/Redis").default' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/Redis").default'.
+      Types of property 'options' are incompatible.
+        Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/redis/RedisOptions").RedisOptions' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/redis/RedisOptions").RedisOptions'.
+          Type 'RedisOptions' is not assignable to type 'CommonRedisOptions'.
+            Types of property 'Connector' are incompatible.
+              Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/connectors/ConnectorConstructor").default | undefined' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/connectors/ConnectorConstructor").default | undefined'.
+                Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/connectors/ConnectorConstructor").default' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/connectors/ConnectorConstructor").default'.
+                  Type 'import("D:/New folder/veda-ai/backend/node_modules/ioredis/built/connectors/AbstractConnector").default' is not assignable to type 'import("D:/New folder/veda-ai/backend/node_modules/bullmq/node_modules/ioredis/built/connectors/AbstractConnector").default'.
+                    Property 'connecting' is protected but type 'AbstractConnector' is not a class derived from 'AbstractConnector'.
+src/routes/api.ts(17,36): error TS2349: This expression is not callable.
+  Type 'typeof import("D:/New folder/veda-ai/backend/node_modules/pdf-parse/dist/pdf-parse/cjs/index")' has no call signatures.
